@@ -16,7 +16,6 @@ import FirstRunPage from './pages/MainPage/_/FirstRunPage';
 function App() {
   return (
     <HashRouter>
-    <BrowserRouter>
           <Routes>
               <Route path="main/prim/first_run_page" element={<MainPage pageComponent={<FirstRunPage/>}/>}/>
               <Route path="main/prim/:settings" element={<MainPage pageComponent={<MainMainPage/>}/>}/>
@@ -33,7 +32,6 @@ function App() {
             <Route path="/install/install_end" element={<InstallEnd/>}/>
             <Route path="/install/update" element={<Update/>}/>
           </Routes>
-    </BrowserRouter>
     </HashRouter>
   );
 }
