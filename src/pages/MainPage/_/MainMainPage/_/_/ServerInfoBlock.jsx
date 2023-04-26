@@ -5,7 +5,7 @@ const ServerInfoBlock = ({img, data, name}) => {
   return (
     <div className={css.server_info_block}>
       <div className={css.server_info_block_img_wrap}>
-        <img width={26} height={26} className={css.server_info_block_img} src={img} alt="" />
+        <img width={26} height={26} className={css.server_info_block_img} src={process.env.PUBLIC_URL+img} alt="" />
       </div>
       <div className={css.server_info_block_txt}>
         <div className={css.server_info_data}>{data}</div>

@@ -6,7 +6,7 @@ const NewsBlock = ({img, name, date, txt, page, link}) => {
 						page === '/main' ? css.MainPage_news_list_block : ''
 	return (
 		<div className={css.news_list_block + ' ' + customClasses}>
-			<img width="150" height="92" src={img} alt="" className="news_list_block_img"/>
+			<img width="150" height="92" src={process.env.PUBLIC_URL+img} alt="" className="news_list_block_img"/>
 			<div className={css.news_list_block_info}>
 				<div className={css.news_list_block_name}>{name}</div>
 				<div className={css.news_list_block_date}>{date}</div>
