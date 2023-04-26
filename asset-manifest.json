@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/r-launcher-old/static/css/main.0b027199.css",
-    "main.js": "/r-launcher-old/static/js/main.8d49906c.js",
+    "main.js": "/r-launcher-old/static/js/main.fa6140d0.js",
     "static/js/787.2465c865.chunk.js": "/r-launcher-old/static/js/787.2465c865.chunk.js",
     "static/media/bg.png": "/r-launcher-old/static/media/bg.df8cf6fc6faf5ce8f72d.png",
     "static/media/Montserrat-MediumItalic.ttf": "/r-launcher-old/static/media/Montserrat-MediumItalic.1fb3253f48940611209a.ttf",
@@ -36,11 +36,11 @@
     "static/media/settings_mini-check-mark.svg": "/r-launcher-old/static/media/settings_mini-check-mark.a7837c64603de975fab2.svg",
     "static/media/h_rapid-coins.svg": "/r-launcher-old/static/media/h_rapid-coins.c81fd13a7791679d3684.svg",
     "main.0b027199.css.map": "/r-launcher-old/static/css/main.0b027199.css.map",
-    "main.8d49906c.js.map": "/r-launcher-old/static/js/main.8d49906c.js.map",
+    "main.fa6140d0.js.map": "/r-launcher-old/static/js/main.fa6140d0.js.map",
     "787.2465c865.chunk.js.map": "/r-launcher-old/static/js/787.2465c865.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b027199.css",
-    "static/js/main.8d49906c.js"
+    "static/js/main.fa6140d0.js"
   ]
 }
