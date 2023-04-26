@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Navigate, redirect, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Navigate, redirect, Route, Routes } from 'react-router-dom';
 import AuthPage from './pages/AuthPage/AuthPage';
 import MainPage from './pages/MainPage/MainPage';
 import MonitoringPage from './pages/MainPage/_/MonitoringPage/MonitoringPage';
@@ -15,6 +15,7 @@ import FirstRunPage from './pages/MainPage/_/FirstRunPage';
 
 function App() {
   return (
+    <HashRouter>
     <BrowserRouter>
           <Routes>
               <Route path="main/prim/first_run_page" element={<MainPage pageComponent={<FirstRunPage/>}/>}/>
@@ -33,6 +34,7 @@ function App() {
             <Route path="/install/update" element={<Update/>}/>
           </Routes>
     </BrowserRouter>
+    </HashRouter>
   );
 }
 
